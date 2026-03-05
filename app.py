@@ -50,7 +50,7 @@ model = load_model()
 st.sidebar.title("⚙️ Cấu hình hệ thống")
 
 conf_threshold = st.sidebar.slider(
-    "Độ tự tin (Confidence)",
+    "Độ tin cậy (Confidence)",
     0.0,1.0,0.5
 )
 
